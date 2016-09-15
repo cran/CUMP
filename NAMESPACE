@@ -1,5 +1,3 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
-# Export all names
-exportPattern(".")
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "cor", "cov", "na.omit", "pchisq", "pnorm", "var")
+importFrom("utils", "read.csv", "write.table")
